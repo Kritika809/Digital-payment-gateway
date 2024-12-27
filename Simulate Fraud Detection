@@ -1,0 +1,4 @@
+if (parseFloat(amount) > 10000) {
+        Alert.alert('Fraud Detection Alert', 'Transaction exceeds allowed limit');
+        return;
+      }
