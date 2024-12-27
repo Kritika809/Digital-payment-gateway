@@ -1,0 +1,6 @@
+const processPayment = async () => {
+    try {
+      if (!amount || !cardNumber || !expiryDate || !cvv) {
+        Alert.alert('Error', 'All fields are required');
+        return;
+      }
